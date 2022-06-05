@@ -21,7 +21,7 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['919070134414','19172750010']
+global.owner = ['919070134414']
 global.premium = ['919070134414']
 global.ownernomer = '919070134414'
 global.ownername = '👿CYBER - CALIPHATE 👿'
@@ -51,7 +51,7 @@ global.mess = {
 }
     global.limitawal = {
     premium: "Infinity",
-    free: 20000,
+    free: 2,
     monayawal: 1000
 }
    global.rpg = {
