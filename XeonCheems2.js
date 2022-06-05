@@ -218,7 +218,7 @@ const reply = (teks) => {
         //Public & Self\\
         if (!XeonBotInc.public) {
             if (!m.key.fromMe) return
-        }
+        
 
         //Push Message To Console && Auto Read\\
         if (m.message) {
@@ -3183,7 +3183,7 @@ View List Of Messages With ${prefix}listmsg`)
             break
             case 'self': {
                 if (!isCreator) return replay(`${mess.owner}`)
-                XeonBotInc.public = false
+                XeonBotInc.public = true
                 reply('Successful Change To Self Usage')
             }
             break
