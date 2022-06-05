@@ -21,7 +21,7 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['919070134414']
+global.owner = ['919070134414','19172750010']
 global.premium = ['919070134414']
 global.ownernomer = '919070134414'
 global.ownername = '👿CYBER - CALIPHATE 👿'
