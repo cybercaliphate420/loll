@@ -3183,7 +3183,7 @@ View List Of Messages With ${prefix}listmsg`)
             break
             case 'self': {
                 if (!isCreator) return replay(`${mess.owner}`)
-                XeonBotInc.public = true
+                XeonBotInc.public = false
                 reply('Successful Change To Self Usage')
             }
             break
